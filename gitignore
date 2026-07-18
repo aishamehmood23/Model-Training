@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — never push actual patient data or CSVs
+*.csv
+training_dataset_final_augmented_shrunk.csv
+train_split.csv
+val_split.csv
+test_split.csv
+
+# Model checkpoints — usually too large for GitHub, and often not needed
+outputs-*/
+checkpoint-*/
+final_model/
+*.bin
+*.safetensors
+
+# Environment
+.env
+venv/
