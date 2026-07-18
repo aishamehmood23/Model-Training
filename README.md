@@ -81,10 +81,10 @@ The validation set is used during training to monitor generalization and select 
 
 The model was evaluated on a held-out test set of **1,927 trauma X-rays**. The test data remained separate from model training, validation, hyperparameter selection, and checkpoint selection. Patient-level separation was maintained to ensure that the reported performance reflects generalization to previously unseen patients.
 
-### Classification Report
-
-![Classification Report](results/Classification_Report.png)
-![Confusion Matrix](results/Confusion_matrix.jpeg)
+<p align="center">
+  <img src="Results/Confusion_matrix.jpeg" alt="Confusion Matrix" width="350">
+  <img src="Results/Classification_Report.png" alt="Classification Report" width="350">
+</p>
 
 The model achieved an overall **accuracy of 90%**, correctly classifying 1,740 of the 1,927 test images. Both the macro-average and weighted-average F1-scores were **0.90**, indicating strong and relatively consistent performance across the two classes.
 
